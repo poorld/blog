@@ -1,0 +1,51 @@
+section {
+    margin-top:100px;
+}
+
+.about {
+    font-size: 23px;
+    color: #adabab;
+}
+
+.fo-sty {
+    margin-top: 100px;
+}
+.flag {
+    font-size: 20px;
+    color: rgb(255, 87, 87);
+    margin-bottom: 0;
+}
+.flag span {
+    color: #555;
+}
+.dictum {
+    background-color: #3f86cd;
+    width: fit-content;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 5px;
+
+}
+
+a {
+    color: salmon;
+}
+a:link ,a:link,a:visited{
+    color: salmon;
+}
+.sport {
+    display: flex;
+    justify-content: flex-start;
+}
+.sport-item {
+    text-align: center;
+    margin: 10px;
+    border: 1px solid #eee;
+    color: #f55;
+    font-size: 15px;
+}
+.sport-img img{
+    width: 150px;
+    height: 170px;
+}
+
