@@ -1,25 +1,35 @@
+body{
+	background-color: #f1b7b7;
+}
 .music-recommend {
 	font-family: "Times New Roman", Times, serif;
 	text-align: center;
     margin: 60px;
     font-size: 25px;
 }
+.music{
+	display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 .music-item {
-	background: #d67f9026;
+	background: #c3c3c380;
 	font-family: "Times New Roman", Times, serif;
 	width: 300px;
     height: 500px;
-	box-shadow: 0 0 5px rgba(202,203,203,0.5);
-  	-webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
-	-moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 	border-radius: 15px;
 	display: flex;
 	flex-direction: column;
+	margin-top: 30px;
 }
 .music-item:hover{
-	box-shadow: 0 0 5px #0091FF;
-  	-webkit-box-shadow: 0 0 5px #0091FF;
-	-moz-box-shadow: 0 0 5px #0091FF;
+	box-shadow:0 0 5px rgba(67, 0, 88, 0.5);
+  	-webkit-box-shadow:0 0 5px rgba(67, 0, 88, 0.5);
+	-moz-box-shadow:0 0 5px rgba(67, 0, 88, 0.5);
+	/*margin-top: -20px;*/
 }
 
 .music-top img {
@@ -29,4 +39,18 @@
 .music-bottom {
 	flex: auto;
     border-radius: 0 0 15px 15px;
+    text-align: center;
+}
+
+.music-bottom h3,p {
+	margin: 0;
+	padding: 0;
+}
+.music-bottom p{
+	color: #24151c;
+}
+
+
+.fo-sty {
+	margin-top: 200px;
 }
