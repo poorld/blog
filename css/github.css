@@ -1,0 +1,66 @@
+body{
+    font-family: "Times New Roman", Times, serif;
+}
+
+.github-recommend {
+    text-align: center;
+    margin: 60px;
+    font-size: 21px;
+}
+
+.github-box {
+    margin: 0 auto;
+    width: 60%;
+    min-width: 600px;
+}
+
+.github-item {
+    border-top: 1px solid #eee;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 20px;
+}
+.item-left {
+    width: 80%;
+}
+.item-right {
+    flex: auto;
+    text-align: center;
+}
+
+.github-pname {
+    color: royalblue;
+    font-size: 20px;
+}
+.language{
+    position: relative;
+    margin-left: 20px;
+}
+.language::before {
+    content: ' ';
+    background-color: salmon;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 2px;
+    left: -22px;
+    border-radius: 50%;
+}
+
+.stars {
+    margin-left: 20px;
+}
+.stars:hover{
+    color: slateblue;
+}
+
+.fork {
+    margin-left: 20px;
+}
+.fork:hover{
+    color: slateblue;
+}
+
+.fo-sty {
+	margin-top: 200px;
+}
