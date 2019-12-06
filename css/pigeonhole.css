@@ -18,7 +18,7 @@
 }
 .box:hover{
     border-bottom: 1px dashed rgb(158, 158, 158);
-    box-shadow: 0 0 5px rgba(255, 25, 25);
+    box-shadow: 0 0 5px #83abfd;
     padding: 25px;
 }
 
