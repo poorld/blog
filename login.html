@@ -100,6 +100,7 @@
 
     <script>
         var saveStr = 'user'
+        var loginToken = 'loginToken'
         window.onload = function(){
             // 恢复账号密码
             let user = getObjByLocal(saveStr)
@@ -125,6 +126,10 @@
                 return
             }
             if(username.value === 'admin' && password.value === '12345'){
+                let token = {
+                    'loginToken': '你好呀！我是小小token'
+                }
+                saveToLocal(token, loginToken)
                 if(checkbox.checked){
                     let user = {
                         username: username.value,

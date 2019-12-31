@@ -327,6 +327,22 @@ a {
     top: 50px;
 }
 
+.logout{
+	padding: 0 10px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 35px;
+    font-size: 10px;
+    display: block;
+	width: 50px;
+	margin: 0 auto;
+	margin-top: 25px;
+}
+.logout:hover{
+	cursor: pointer;
+}
+
 /* 头像旋转 */
 @keyframes avatar-rotate {
 	from {transform: rotate(0deg);}
