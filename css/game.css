@@ -28,17 +28,24 @@
     color: #8f8f8f;
     margin: 60px;
 }
-.left {
-	float: left;
+.item-top {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.left{
+	flex: 1;
+}
+.right {
+	flex: 1;
+	margin-left: 10px;
+    text-indent: 10px;
 }
 .left img {
 	width: 300px;
     height: auto;
 }
 
-.right {
-	margin-left: 315px;
-}
 
 .game-name {
 	font-size: 20px;
